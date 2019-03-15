@@ -8,6 +8,7 @@ public class player : MonoBehaviour
     public bool respawn = false;
 
     private Transform[] spawnPoints;
+    private bool lastToggle = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,22 @@ public class player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (lastToggle != respawn)
+        {
+            Respawn();
+            respawn = false;
+        }
+        else
+        {
+            lastToggle = respawn;
+        }
     }
+    private void Respawn()
+    {
+        int a = Random.Range(1, spawnPoints.Length);
+        transform.position = spawnPoints [a].transform.position;
+    }        
+            
+            
+
 }
