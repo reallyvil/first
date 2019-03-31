@@ -13,8 +13,7 @@ public class player : MonoBehaviour
     void Start()
     {
         //remember to comment m8
-        spawnPoints = playerSpawnPoints.GetComponentsInChildren<Transform>();
-        print(spawnPoints.Length);
+        spawnPoints = playerSpawnPoints.GetComponentsInChildren<Transform> ();
     }
 
     // Update is called once per frame
@@ -32,10 +31,7 @@ public class player : MonoBehaviour
     }
     private void Respawn()
     {
-        int a = Random.Range(1, spawnPoints.Length);
+        int a = Random.Range (2, spawnPoints.Length);
         transform.position = spawnPoints [a].transform.position;
-    }        
-            
-            
-
+    }
 }
