@@ -10,40 +10,31 @@ public class Door : MonoBehaviour
     float CloseDoor = 0.0f; // Door's original position before it opened
     float Speed = 2.0f; // Speed of the door when closing/opening
     //
-    void OpenTheDoor(Collider other)
+    void Button()
     {
-        if (other.gameObject.tag == "Player")
+        if (Input.GetKeyDown("e")) // and if the player pressed "e"
         {
-            enter = true;
+            var target = Quaternion.Euler(0, OpenDoor, 0);
+            transform.localRotation = Quaternion.Slerp(transform.localRotation, target, Time.deltaTime * Speed);
+        }
+        else
+        {
+            var target1 = Quaternion.Euler(0, CloseDoor, 0);
+            transform.localRotation = Quaternion.Slerp(transform.localRotation, target1, Time.deltaTime * Speed);
         }
     }
 
-    void closeTheDoor(Collider other)
+    /*void Open()
     {
-        if (other.gameObject.tag == "Player")
-        {
-            enter = false;
-        }
-    }
-
-    void Update()
-    {
-        if (open == true)
+        if ((Input.GetKeyDown("e")) == true) // If the player did press e
         {
             var target = Quaternion.Euler (0, OpenDoor, 0);
             transform.localRotation = Quaternion.Slerp(transform.localRotation, target, Time.deltaTime * Speed);
         }
-        if (open == false)
+        else
         {
             var target1 = Quaternion.Euler (0, CloseDoor, 0);
             transform.localRotation = Quaternion.Slerp(transform.localRotation, target1, Time.deltaTime * Speed);
         }
-        if (enter == true) //If i touch the door
-        {
-            if(Input.GetKeyDown("e"))
-            {
-                open = !open;
-            }
-        }
-    }
+    }*/
 }
