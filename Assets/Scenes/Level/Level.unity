@@ -111,7 +111,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 2dfc98f4e539f5b41a7d56cf0600c0eb, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: aa5f8543e40f09f4c8d7eeeb13f267ee, type: 2}
 --- !u!1001 &14892670
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4395,7 +4395,7 @@ MeshRenderer:
   m_GameObject: {fileID: 501825813}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -4455,7 +4455,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 501825813}
-  m_Mesh: {fileID: 4300000, guid: b4e34f37515b540dea5e4843c169c101, type: 3}
+  m_Mesh: {fileID: 4300000, guid: d458e01886c684a449abefca599d5e2a, type: 3}
 --- !u!4 &501825818
 Transform:
   m_ObjectHideFlags: 0
