@@ -55,11 +55,10 @@
   <ItemGroup>
      <Compile Include="Assets\ChangeScene.cs" />
      <Compile Include="Assets\Door.cs" />
-     <Compile Include="Assets\LowPoly Weapon Pack\Scripts\RotateWeapon.cs" />
-     <Compile Include="Assets\LowPoly Weapon Pack\Scripts\WeaponHolder.cs" />
      <Compile Include="Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
      <Compile Include="Assets\Nokobot\Sci-Fi_Crossbow\Demo\Scripts\CrossbowShoot.cs" />
      <Compile Include="Assets\player.cs" />
+     <Compile Include="Assets\QuitGame.cs" />
      <Compile Include="Assets\Rotate.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
