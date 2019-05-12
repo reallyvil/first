@@ -8,6 +8,6 @@ public class Rotate : MonoBehaviour
     void rotate()
     {
         //simply rotates the object by X,Y,Z
-        transform.Rotate(new Vector3 (15, 30, 45) * Time.deltaTime);
+        transform.Rotate(new Vector3 (15,30,45)  * Time.deltaTime);
     }
 }
