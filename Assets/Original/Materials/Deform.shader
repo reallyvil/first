@@ -1,4 +1,5 @@
-﻿Shader "Unlit/Deform"
+﻿//This is the material the shader will use
+Shader "Unlit/Color"
 {
     Properties
     {
