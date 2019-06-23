@@ -40,7 +40,6 @@ Shader "Unlit/waves"
             {
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
-                //Original
                 //These 2 lines of code I made changes the shape of the plane
                 //The 1st line is for when the is visible in-game
                 /*The 2nd line changes the amplitude of the plane by using the

@@ -5,25 +5,34 @@ using UnityEngine;
 public class UnderWaterFilter : MonoBehaviour
 {
     public float WaterLevel;
-    private boolean inTheWater;
+    private bool inTheWater;
     private Color outOfTheWater;
     private Color insideWater;
 
     // Start is called before the first frame update
     void Start()
     {
-        outOfTheWater = new Color (0.5f, 0.5f, 0.5f);
+        outOfTheWater = new Color (0.5f, 0.5f, 0.5f, 0.5f);
         insideWater = new Color (0.22f, 0.65f, 0.77f, 0.5f);
     }
 
     // Update is called once per frame
     void Update()
     {
+        /* if the water level is greater than the users 
+        vertical position */
         if ((transform.position.y < WaterLevel) != inTheWater)
         {
             inTheWater = transform.position.y < WaterLevel;
-            if (inTheWater) waterFilter();
-            if (!inTheWater) normal();
+            if (inTheWater) 
+            {
+                waterFilter();
+            }
+            
+            if (!inTheWater) 
+            {
+                normal();
+            }
         }
     }
     void waterFilter()
