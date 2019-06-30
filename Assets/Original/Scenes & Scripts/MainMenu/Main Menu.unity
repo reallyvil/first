@@ -232,7 +232,7 @@ RectTransform:
   m_Children:
   - {fileID: 1780218294}
   m_Father: {fileID: 1809493736}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -414,7 +414,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: don't know what to call this game
+  m_Text: Rocky beach
 --- !u!222 &600443618
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -567,7 +567,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -4.4297485, y: 2.015442}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 135, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1105460930
 MonoBehaviour:
@@ -1146,8 +1146,8 @@ RectTransform:
   - {fileID: 1105460929}
   - {fileID: 600443616}
   - {fileID: 1746619434}
-  - {fileID: 225946438}
   - {fileID: 1967397451}
+  - {fileID: 225946438}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1169,7 +1169,7 @@ GameObject:
   - component: {fileID: 1967397453}
   - component: {fileID: 1967397452}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Settings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1188,7 +1188,7 @@ RectTransform:
   m_Children:
   - {fileID: 1791682221}
   m_Father: {fileID: 1809493736}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
