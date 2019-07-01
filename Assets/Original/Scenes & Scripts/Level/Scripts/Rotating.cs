@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Rotate : MonoBehaviour
+public class Rotating : MonoBehaviour
 {
-    float speed = 50.0f;
+    public float speed = 50.0f;
     // void for rotating the collectable items
     void Update()
     {
