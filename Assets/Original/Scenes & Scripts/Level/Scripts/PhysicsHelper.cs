@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Ditzelgames
+namespace Viliame
 {
     public static class PhysicsHelper
     {
@@ -15,7 +15,7 @@ namespace Ditzelgames
             //force = 1 => need 1 s to reach velocity (if mass is 1) => force can be max 1 / Time.fixedDeltaTime
             force = Mathf.Clamp(force, -rigidbody.mass / Time.fixedDeltaTime, rigidbody.mass / Time.fixedDeltaTime);
 
-            //dot product is a projection from rhs to lhs with a length of result / lhs.magnitude https://www.youtube.com/watch?v=h0NJK4mEIJU
+            //dot product is a projection from rhs to lhs with a length of result
             if (rigidbody.velocity.magnitude == 0)
             {
                 rigidbody.AddForce(velocity * force, mode);
@@ -66,7 +66,6 @@ namespace Ditzelgames
 
         public static Vector3 GetNormal(Vector3[] points)
         {
-            //https://www.ilikebigbits.com/2015_03_04_plane_from_points.html
             if (points.Length < 3)
                 return Vector3.up;
 
