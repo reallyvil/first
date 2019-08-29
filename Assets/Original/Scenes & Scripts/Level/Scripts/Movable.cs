@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Movable : MonoBehaviour
 {
-    // properties and components
+    // properties
     float playerForce = 800; // force of the user
     Vector3 objectPos;
     float distance;
