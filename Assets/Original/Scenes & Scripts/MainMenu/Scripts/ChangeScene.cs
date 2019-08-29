@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 
-public class ChangeScene : UnityEngine.MonoBehaviour
+public class BackToTheMainMenu : UnityEngine.MonoBehaviour
 {
     // Void for changing scenes
     public void LoadTheNextScene(string level)
