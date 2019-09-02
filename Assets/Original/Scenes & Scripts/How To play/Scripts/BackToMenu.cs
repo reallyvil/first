@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 
-public class ChangeScene : UnityEngine.MonoBehaviour
+public class BackToMenu : UnityEngine.MonoBehaviour
 {
     // Void for changing scenes
-    public void LoadTheNextScene(string level)
+    public void ReturnToMenu(string MainMenu)
     {
         /* If the play button is clicked then 
          the user will load to the level*/
-        SceneManager.LoadScene(level);
+        SceneManager.LoadScene(MainMenu);
     }
 }

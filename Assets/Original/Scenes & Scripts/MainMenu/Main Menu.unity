@@ -152,7 +152,7 @@ RectTransform:
   m_Children:
   - {fileID: 1761440226}
   m_Father: {fileID: 1809493736}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -202,15 +202,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 906447453}
-        m_MethodName: LoadTheNextScene
+      - m_Target: {fileID: 906447455}
+        m_MethodName: GettingHelp
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: HowToPlay
+          m_StringArgument: HowToplay
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, Unity.ugui, Version=1.0.0.0,
@@ -364,7 +364,7 @@ RectTransform:
   m_Children:
   - {fileID: 1780218294}
   m_Father: {fileID: 1809493736}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -568,6 +568,7 @@ GameObject:
   - component: {fileID: 906447450}
   - component: {fileID: 906447453}
   - component: {fileID: 906447454}
+  - component: {fileID: 906447455}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -662,6 +663,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7ff30457077f3a74aa496437e2c9860a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &906447455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906447449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4441984326dae46f9964425240ebf832, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1105460928
@@ -1278,8 +1291,8 @@ RectTransform:
   - {fileID: 1105460929}
   - {fileID: 600443616}
   - {fileID: 1746619434}
-  - {fileID: 225946438}
   - {fileID: 68395150}
+  - {fileID: 225946438}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
