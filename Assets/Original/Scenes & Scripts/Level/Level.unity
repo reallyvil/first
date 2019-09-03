@@ -1759,7 +1759,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 241795608}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1d00427be9394997bd5fcd412a575b7, type: 3}
+  m_Script: {fileID: 11500000, guid: 675c80e64edd4441188034efe9689f22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &241795613
@@ -2959,7 +2959,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -851, y: -430}
+  m_AnchoredPosition: {x: -850, y: -430}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &583629613
@@ -3006,7 +3006,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 241795610}
-        m_MethodName: LoadTheGame
+        m_MethodName: Load
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3984,6 +3984,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WaterLevel: 20
+--- !u!114 &728604420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728604412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 675c80e64edd4441188034efe9689f22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &728726117
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4742,7 +4754,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -848, y: -336}
+  m_AnchoredPosition: {x: -850, y: -336}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &838317410
