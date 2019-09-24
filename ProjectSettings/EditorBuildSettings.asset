@@ -14,7 +14,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Original/Scenes & Scripts/Scoreboard/Scoreboard.unity
     guid: 0b309abd143684507a0bd458d80b292a
-  - enabled: 1
-    path: Assets/Original/Scenes & Scripts/How To play/HowToPlay.unity
-    guid: d837edfe373064bd1a709e8408f7dc1f
   m_configObjects: {}

@@ -5,7 +5,7 @@ using UnityEngine;
 public class QuitGame : MonoBehaviour
 {
     // void for closing the app
-    public void leaveGame()
+    public void LeaveGame()
     {
         /* when the user clicks the quit
          the application will close and 

@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class QuickSave : MonoBehaviour
+public class PreviousSave : MonoBehaviour
 {
 
     /* This void is where it records the players position
-    when they save */
+    when they saved */
     void Update()
     {
-        transform.position += new Vector3 (Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        transform.position += new Vector3 (Input.GetAxis("Horizontal"), 0, Input.GetAxis("vertical"));
     }
-    public void Load()
+    public void LoadTheGame()
     {
         //reloads the level but in the position the player last was
         SaveGame.Load();
