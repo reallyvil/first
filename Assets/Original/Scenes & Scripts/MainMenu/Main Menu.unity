@@ -415,7 +415,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 225946442}
-        m_MethodName: LeaveGame
+        m_MethodName: leaveGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -566,9 +566,9 @@ GameObject:
   - component: {fileID: 906447452}
   - component: {fileID: 906447451}
   - component: {fileID: 906447450}
-  - component: {fileID: 906447453}
   - component: {fileID: 906447454}
   - component: {fileID: 906447455}
+  - component: {fileID: 906447453}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera

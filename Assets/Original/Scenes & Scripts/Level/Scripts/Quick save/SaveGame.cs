@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SaveGame
 {
-    /* This script isn't mine is from this video
+    /* This script isn't mine it is from this video
     https://www.youtube.com/watch?v=51y8kU_nEvc */
 
     //serialized
